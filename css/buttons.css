@@ -1,0 +1,29 @@
+#btnMotor{
+
+    padding:18px 45px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#00AEEF;
+
+    color:white;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+    box-shadow:0 0 30px rgba(0,174,239,.55);
+
+}
+
+#btnMotor:hover{
+
+    transform:scale(1.08);
+
+    background:#0091d4;
+
+}

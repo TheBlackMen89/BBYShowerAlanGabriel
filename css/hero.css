@@ -1,0 +1,134 @@
+/* ==========================================
+   HERO
+========================================== */
+
+.hero{
+
+    min-height:100vh;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,.55),
+            rgba(0,0,0,.80)
+        ),
+        url("../img/backgrounds/road1.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:120px 20px 60px;
+
+}
+
+/* Caja principal */
+
+.overlay{
+
+    width:100%;
+
+    max-width:1200px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.motorcycle-container{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/* Subtitulo */
+
+.subtitle{
+
+    color:#00AEEF;
+
+    letter-spacing:6px;
+
+    font-size:20px;
+
+    margin-bottom:20px;
+
+}
+
+/* Nombre */
+
+h1{
+
+    font-size:85px;
+
+    color:white;
+
+    margin-bottom:25px;
+
+    text-shadow:0 0 20px rgba(0,174,239,.45);
+
+}
+
+/* Frase */
+
+.frase{
+
+    font-size:24px;
+
+    color:#ddd;
+
+    margin-bottom:40px;
+
+}
+
+/* Moto */
+
+.motorcycle{
+
+    width:700px;
+
+    max-width:90%;
+
+    margin-bottom:50px;
+
+    filter:drop-shadow(0 0 30px rgba(0,174,239,.55));
+
+    transition:.4s;
+
+}
+
+.motorcycle:hover{
+
+    transform:scale(1.03);
+
+}
+
+.scroll{
+
+    margin-top:35px;
+
+    color:#00AEEF;
+
+    font-size:18px;
+
+    letter-spacing:3px;
+
+    animation:scrollAnimation 2s infinite;
+
+}

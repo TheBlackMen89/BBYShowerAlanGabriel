@@ -1,0 +1,85 @@
+/* ===========================
+   NAVBAR
+=========================== */
+
+nav{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 60px;
+
+    background:rgba(0,0,0,.25);
+
+    backdrop-filter:blur(15px);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    z-index:999;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.logo-icon{
+
+    font-size:30px;
+
+}
+
+.logo-text{
+
+    color:#FFD700;
+
+    font-size:26px;
+
+    font-weight:bold;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    gap:40px;
+
+    list-style:none;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+    font-size:18px;
+
+}
+
+nav a:hover{
+
+    color:#00AEEF;
+
+}
