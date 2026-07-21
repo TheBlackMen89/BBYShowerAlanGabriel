@@ -8,84 +8,61 @@
 
     background:
         linear-gradient(
-            rgba(0,0,0,.55),
-            rgba(0,0,0,.80)
+            rgba(0,0,0,.65),
+            rgba(0,0,0,.85)
         ),
         url("../img/backgrounds/road1.jpg");
 
     background-size:cover;
-
     background-position:center;
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
-    text-align:center;
-
-    padding:120px 20px 60px;
+    padding:120px 80px 60px;
 
 }
-
-/* Caja principal */
 
 .overlay{
 
     width:100%;
+    max-width:1400px;
 
-    max-width:1200px;
-
-    display:flex;
-
-    flex-direction:column;
+    display:grid;
+    grid-template-columns:1fr 1fr;
 
     align-items:center;
 
-}
-
-.motorcycle-container{
-
-    width:100%;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
+    gap:50px;
 
 }
 
-/* Subtitulo */
+.hero-left{
+
+    text-align:left;
+
+}
 
 .subtitle{
 
-    color:#00AEEF;
+    color:var(--primary);
+
+    font-size:18px;
 
     letter-spacing:6px;
-
-    font-size:20px;
 
     margin-bottom:20px;
 
 }
 
-/* Nombre */
+.title{
 
-h1{
+    font-size:80px;
 
-    font-size:85px;
+    margin-bottom:30px;
 
-    color:white;
-
-    margin-bottom:25px;
-
-    text-shadow:0 0 20px rgba(0,174,239,.45);
+    line-height:1;
 
 }
-
-/* Frase */
 
 .frase{
 
@@ -95,40 +72,34 @@ h1{
 
     margin-bottom:40px;
 
+    line-height:1.5;
+
 }
 
-/* Moto */
+.hero-right{
+
+    display:flex;
+
+    justify-content:center;
+
+}
 
 .motorcycle{
 
-    width:700px;
+    width:100%;
 
-    max-width:90%;
+    max-width:700px;
 
-    margin-bottom:50px;
-
-    filter:drop-shadow(0 0 30px rgba(0,174,239,.55));
-
-    transition:.4s;
-
-}
-
-.motorcycle:hover{
-
-    transform:scale(1.03);
+    filter:drop-shadow(0 0 35px rgba(0,174,239,.55));
 
 }
 
 .scroll{
 
-    margin-top:35px;
+    margin-top:40px;
 
-    color:#00AEEF;
-
-    font-size:18px;
+    color:var(--primary);
 
     letter-spacing:3px;
-
-    animation:scrollAnimation 2s infinite;
 
 }
