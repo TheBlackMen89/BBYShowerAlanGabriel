@@ -1,0 +1,76 @@
+/*==========================================
+FOOTER
+==========================================*/
+
+.footer{
+
+    background:#050b14;
+    padding:100px 20px 60px;
+    text-align:center;
+    overflow:hidden;
+    position:relative;
+
+}
+
+.footer h2{
+
+    font-size:3rem;
+    color:#6fdcff;
+    margin-bottom:20px;
+
+}
+
+.footer h3{
+
+    font-size:2rem;
+    color:#fff;
+    margin-bottom:20px;
+
+}
+
+.footer p{
+
+    max-width:700px;
+    margin:auto;
+    color:#d8d8d8;
+    line-height:1.8;
+
+}
+
+.footer-bike{
+
+    display:block;
+
+    width:320px;
+
+    max-width:85%;
+
+    margin:50px auto 0;
+
+    filter:drop-shadow(0 0 25px rgba(0,174,239,.35));
+
+}
+
+.footer-heart{
+
+    font-size:3rem;
+    margin-bottom:20px;
+    animation:heartbeat 1.5s infinite;
+
+}
+
+.copy{
+
+    margin-top:60px;
+    color:#8e8e8e;
+    font-size:.9rem;
+
+}
+
+@keyframes heartbeat{
+
+    0%{transform:scale(1);}
+    50%{transform:scale(1.15);}
+    100%{transform:scale(1);}
+
+}

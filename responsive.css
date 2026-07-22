@@ -1,0 +1,211 @@
+/*==================================================
+TABLET
+==================================================*/
+
+@media(max-width:992px){
+
+nav{
+
+    padding:15px 30px;
+
+}
+
+.overlay{
+
+    display:flex;
+
+    flex-direction:column;
+
+    text-align:center;
+
+    gap:40px;
+
+}
+
+.hero-left{
+
+    width:100%;
+
+    order:2;
+
+    text-align:center;
+
+}
+
+.hero-right{
+
+    width:100%;
+
+    order:1;
+
+    justify-content:center;
+
+}
+
+.motorcycle{
+
+    max-width:420px;
+
+}
+
+.title{
+
+    font-size:58px;
+
+}
+
+.frase{
+
+    font-size:20px;
+
+}
+
+.gallery-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+/*==================================================
+CELULAR
+==================================================*/
+
+@media(max-width:768px){
+
+.hero{
+
+    padding:110px 20px 60px;
+
+}
+
+.overlay{
+
+    gap:25px;
+
+}
+
+.motorcycle{
+
+    max-width:260px;
+
+}
+
+.subtitle{
+
+    font-size:14px;
+
+    letter-spacing:4px;
+
+}
+
+.title{
+
+    font-size:42px;
+
+}
+
+.frase{
+
+    font-size:18px;
+
+    line-height:1.6;
+
+}
+
+#btnMotor{
+
+    width:100%;
+
+    max-width:320px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.hero-date{
+
+    font-size:16px;
+
+}
+
+.scroll{
+
+    margin-top:25px;
+
+    font-size:14px;
+
+}
+
+.gallery-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.gifts-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.gift-card{
+
+    min-height:auto;
+
+}
+
+}
+
+
+/*==================================================
+MÓVILES PEQUEÑOS
+==================================================*/
+
+@media(max-width:480px){
+
+.title{
+
+    font-size:36px;
+
+}
+
+.frase{
+
+    font-size:17px;
+
+}
+
+.motorcycle{
+
+    max-width:220px;
+
+}
+
+.about-title,
+
+.gallery-title,
+
+.countdown-title,
+
+.gifts-title{
+
+    font-size:28px;
+
+}
+
+}
