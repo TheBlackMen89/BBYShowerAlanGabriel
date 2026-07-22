@@ -75,99 +75,110 @@ CELULAR
 
 @media(max-width:768px){
 
-.hero{
+    .hero{
 
-    padding:110px 20px 60px;
+        padding:110px 20px 60px;
 
-}
+    }
 
-.overlay{
+    .overlay{
 
-    gap:25px;
+        gap:25px;
 
-}
+    }
 
-.motorcycle{
+    .motorcycle{
 
-    max-width:260px;
+        max-width:260px;
 
-}
+    }
 
-.subtitle{
+    .subtitle{
 
-    font-size:14px;
+        font-size:14px;
+        letter-spacing:4px;
 
-    letter-spacing:4px;
+    }
 
-}
+    .title{
 
-.title{
+        font-size:42px;
 
-    font-size:42px;
+    }
 
-}
+    .frase{
 
-.frase{
+        font-size:18px;
+        line-height:1.6;
 
-    font-size:18px;
+    }
 
-    line-height:1.6;
+    #btnMotor{
 
-}
+        width:100%;
+        max-width:320px;
 
-#btnMotor{
+        margin:auto;
 
-    width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
 
-    max-width:320px;
+    }
 
-    margin:auto;
+    .hero-date{
 
-    display:flex;
+        font-size:16px;
 
-    justify-content:center;
+    }
 
-    align-items:center;
+    .scroll{
 
-}
+        margin-top:25px;
+        font-size:14px;
 
-.hero-date{
+    }
 
-    font-size:16px;
+    .gallery-grid{
 
-}
+        grid-template-columns:1fr;
 
-.scroll{
+    }
 
-    margin-top:25px;
+    .cards{
 
-    font-size:14px;
+        grid-template-columns:1fr;
 
-}
+    }
 
-.gallery-grid{
+    /*==========================================
+    REGALOS
+    ==========================================*/
 
-    grid-template-columns:1fr;
+    .gifts-wrapper{
 
-}
+        flex-direction:column;
+        gap:20px;
 
-.cards{
+    }
 
-    grid-template-columns:1fr;
+    .gift-card{
 
-}
+        width:100%;
+        min-height:auto;
 
-.gifts-grid{
+    }
 
-    grid-template-columns:1fr;
+    .gift-plus{
 
-}
+        width:60px;
+        height:60px;
 
-.gift-card{
+        font-size:2rem;
 
-    min-height:auto;
+        margin:0 auto;
 
-}
+    }
 
 }
 
