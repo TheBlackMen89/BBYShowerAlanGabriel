@@ -5,8 +5,17 @@
 @import url("loader.css");
 @import url("navbar.css");
 @import url("hero.css");
+
+@import url("about.css");
+@import url("gallery.css");
+@import url("invitation.css");
+@import url("event.css");
+@import url("countdown.css");
+@import url("gifts.css");
+@import url("footer.css");
+
 @import url("buttons.css");
-@import url("sections.css");
+
 @import url("animations.css");
 @import url("responsive.css");
 
@@ -71,5 +80,58 @@ body{
     font-family:'Orbitron',sans-serif;
 
     overflow-x:hidden;
+
+}
+
+#topButton{
+
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #27b6ff;
+    color: white;
+
+    font-size: 22px;
+
+    padding: 0;
+
+    cursor: pointer;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.35);
+
+    z-index: 999;
+
+}
+
+#topButton:hover{
+
+    transform:scale(1.1);
+
+}
+
+body{
+
+    background:#07111f;
+
+    background-image:
+
+        radial-gradient(circle at 20% 20%,rgba(255,255,255,.05) 2px,transparent 2px),
+
+        radial-gradient(circle at 80% 30%,rgba(255,255,255,.04) 2px,transparent 2px),
+
+        radial-gradient(circle at 50% 80%,rgba(255,255,255,.04) 2px,transparent 2px);
+
+    background-size:250px 250px;
 
 }

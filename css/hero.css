@@ -86,11 +86,17 @@
 
 .motorcycle{
 
-    width:100%;
+    width:50%;
 
-    max-width:700px;
+    max-width:350px;
 
-    filter:drop-shadow(0 0 35px rgba(0,174,239,.55));
+    height:auto;
+
+    display:block;
+
+    margin:auto;
+
+    filter:drop-shadow(0 0 35px rgba(0,174,239,.45));
 
 }
 
@@ -101,5 +107,79 @@
     color:var(--primary);
 
     letter-spacing:3px;
+
+}
+
+.vibrar{
+
+    animation:vibrar .25s linear 4;
+
+}
+
+@keyframes vibrar{
+
+    0%{
+
+        transform:translateX(0);
+
+    }
+
+    25%{
+
+        transform:translateX(-5px);
+
+    }
+
+    50%{
+
+        transform:translateX(5px);
+
+    }
+
+    75%{
+
+        transform:translateX(-5px);
+
+    }
+
+    100%{
+
+        transform:translateX(0);
+
+    }
+
+}
+
+/*==========================================
+FECHA HERO
+==========================================*/
+
+.hero-date{
+
+    margin-top:25px;
+
+    font-size:18px;
+
+    color:#ffffff;
+
+    line-height:1.8;
+
+    font-weight:600;
+
+    letter-spacing:1px;
+
+    opacity:.9;
+
+}
+
+.desktop-only{
+
+    display:flex;
+
+}
+
+.mobile-only{
+
+    display:none;
 
 }
