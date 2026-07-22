@@ -8,7 +8,6 @@ const btnMotor = document.getElementById("btnMotor");
 const motos = document.querySelectorAll(".motorcycle");
 
 const motorAudio = document.getElementById("motorAudio");
-const musicAudio = document.getElementById("musicAudio");
 
 const menu = document.getElementById("menu");
 const menuToggle = document.getElementById("menuToggle");
@@ -69,33 +68,9 @@ async function reproducirAudio() {
 
         }
 
-        if (musicAudio) {
-
-            musicAudio.volume = 0;
-
-            await musicAudio.play();
-
-            let volumen = 0;
-
-            const fade = setInterval(() => {
-
-                volumen += 0.02;
-
-                musicAudio.volume = Math.min(volumen, 0.25);
-
-                if (volumen >= 0.25) {
-
-                    clearInterval(fade);
-
-                }
-
-            }, 80);
-
-        }
-
     } catch (error) {
 
-        console.log("Error reproduciendo audio:", error);
+        console.log("Error reproduciendo el sonido del motor:", error);
 
     }
 
