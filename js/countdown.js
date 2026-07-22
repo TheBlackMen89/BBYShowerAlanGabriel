@@ -2,7 +2,7 @@
 // FECHA DEL EVENTO
 //==========================================
 
-const eventDate = new Date("2026-08-01T16:00:00").getTime();
+const eventDate = new Date("2026-09-15T16:00:00").getTime();
 
 //==========================================
 // ELEMENTOS
